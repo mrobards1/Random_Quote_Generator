@@ -1,6 +1,6 @@
 
 import React from "https://esm.sh/react";
-import ReactDOM from "https://esm.sh/react-dom";
+import { createRoot } from 'react-dom';
 import './App.css';
 
 
@@ -59,6 +59,8 @@ class App extends React.Component {
   }
 }
 
-ReactDOM.render(<App />, document.getElementById("app"));
+
+
+
 
 export default App;
